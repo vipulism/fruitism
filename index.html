@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+
 </head>
 <body>
 <div class="wrap">
@@ -18,7 +20,13 @@
 
 	<div class="logo">Vipulism  </div>
 	</div>
-	<script>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<button onclick="window.plugins.socialsharing.shareViaWhatsApp('Message via WhatsApp', null /* img */, null /* url */, function() {console.log('share ok')}, function(errormsg){alert(errormsg)})">msg via WhatsApp (with errcallback)</button>
+<script>
 
 	(function  () {
 		

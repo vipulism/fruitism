@@ -1,0 +1,26 @@
+  <?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        version     = "2.8"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.5.0" />
+
+        <name>Fruitism9</name>
+
+        <description>
+        An example for phonegap build docs. 
+        </description>
+        <content src="index.html" />
+
+        <author href="http://vipulism.phonegap.io" email="vipul0809@gmail.com">
+        Vipul Sharma
+        </author>
+
+        <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
+
+    </widget>
