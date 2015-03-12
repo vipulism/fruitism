@@ -13,6 +13,7 @@
         <description>
         An example for phonegap build docs. 
         </description>
+         <icon src="icon.png" />
         <content src="index.html" />
 
         <author href="http://vipulism.phonegap.io" email="vipul0809@gmail.com">
